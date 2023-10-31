@@ -1,0 +1,181 @@
+/* Apply a clean and professional style with suitable colors */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #e6e8ed;
+}
+
+.containar1 {
+  position: relative;
+  margin: 10px 10% 100px;
+}
+
+.bak {
+  margin-top: 50px;
+  height: 339px;
+  justify-content: center;
+  padding-top: 8%;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+#search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search_bar {
+  width: 400px;
+  border: 3px solid #1f3a52;
+  margin-right: 20px;
+  padding: 5px;
+  height: 47px;
+  border-radius: 8px;
+  outline: none;
+  color: #1f3a52;
+  font-size: 15px;
+}
+
+#search-button {
+  width: 125px;
+  height: 48px;
+  border: 3px solid #1f3a52;
+  background: #1f3a52;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 20px;
+  opacity: 0.9;
+}
+
+#search-button:hover {
+  background-color: #1f3a52;
+  color: white;
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.5s ease-out;
+}
+
+#dropdown {
+  border: 3px solid #1f3a52;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #1f3a52;
+  background-color: white;
+  height: 47px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-right: 18px;
+}
+
+#mid {
+  text-align: center;
+  color: #1f3a52;
+  margin: 10px 0 30px;
+}
+
+.containar2 {
+  width: 100%;
+  margin-bottom: 7%;
+}
+
+.wrap {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  margin: 0 15%;
+  border-radius: 10px;
+}
+
+.card1 {
+  width: 250px;
+  height: 200px;
+  border-right: 3px solid #1f3a52;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.card1 p {
+  color: #2e3849;
+  margin-top: 5px;
+}
+
+.card1 h2 {
+  font-weight: bold;
+  color: #12784f;
+}
+
+.card1 h3 {
+  background-color: #12784f;
+  color: white;
+  margin-right: 180px;
+  border-radius: 25px;
+  padding: 3px;
+  text-align: center;
+}
+
+.card1 a {
+  color: #4964e9;
+  text-decoration: none;
+}
+
+.card2 button {
+  text-decoration: none;
+  color: white;
+  border: none;
+  margin: 10px;
+  background-color: #1f3a52;
+  width: 300px;
+  height: 37px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 60%;
+}
+
+#card2link {
+  text-decoration: none;
+  color: #1f3a52;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card2 {
+  border-radius: 10px;
+}
+
+.card2:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+  transition: all 1s ease-out;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}

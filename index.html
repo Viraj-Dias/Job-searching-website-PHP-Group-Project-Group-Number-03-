@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Career Finder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+<link rel="stylesheet" type="text/css" href="resources/css/main.css">
+<link rel="icon" type="image/x-icon" href="resources/images/favicon.png">
+
+<script src="resources/js/search.js"></script>
+
+</head>
+<body>
+
+
+<nav>
+  <div class="logo">
+    <a href="#"><img src="resources/images/logo.png" width="60%"></a>
+  </div>
+  <ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="jobs/Jobs_Data_Analys/jobs.html">Jobs</a></li>
+    <li><a href="companies.html">companies</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="login.html" class="btn">Login</a></li>
+    <li><a href="register.html" class="btn">Register</a></li>
+
+
+  </ul>
+</nav>
+
+<!-- ------------------------------------------------------- -->
+<div class="bak">
+<div class="containar1">
+
+  <div id="search">
+
+  <input type="text" name="jobs" placeholder="Find a jobs.." id="search_bar"> 
+
+  <select id="dropdown">
+    <option disabled selected value="">Select Job Category</option>
+    <option>Software Developer</option>
+    <option>Data Analyst</option>
+    <option>Graphic Designer</option>
+    <option>Full Stack Developer</option>
+  </select>
+
+  <button id="search-button" onclick="search_job()"> Search</button>
+
+  <script type="text/javascript">
+    
+        function hiden(index){
+      window.location.href = index+"?hide=true";
+    
+  }
+    
+  </script>
+
+</div>
+
+</div>
+</div>
+<!-- ------------------------------------------------------- -->
+
+<div class="containar2">
+
+  <div class="wrap">
+  
+  <div class="card1"><br><br><br><br><h2 style=" margin-top: 10px;">Recent searches</h2></div>
+  <div class="card1">
+    <img src="resources/images/Codeacademy.png">
+    <h3>New</h3>
+    <a href="jobs/software_engineering/2.html"><h4>Senior Software Engineer</h4></a>
+    <p>Work on a small, cross-functional team to create new projects that drive growth</p>
+  </div>
+  <div class="card1">
+    <img src="resources/images/Andela.png">
+    <h3>New</h3>
+    <a href="jobs/software_engineering/4.html"><h4>Backend Engineer</h4></a>
+    <p>We are looking for an experienced Back-end engineer for curating the structure of</p>
+  </div>
+  <div class="card1" style="border: none;">
+    <img src="resources/images/UNDOCarbon.png">
+    <h3>New</h3>
+    <a href="jobs/software_engineering/5.html"> <h4>Senior Engineer</h4></a>
+    <p>Thanks to our industry leading operations, science and commercial teams, UNDO</p>
+  </div>
+  </div>
+
+</div>
+
+<!-- ------------------------------------------------------- -->
+<div id="mid"><h2>MOST POPULAR JOBS</h2></div>
+<!-- ------------------------------------------------------- -->
+
+<div class="row">
+  <div class="column">
+    <div class="card2">
+      <img src="resources/images/data-analist.png">
+      <h4>Data Analyst</h4>
+      <a href="jobs/Jobs_Data_Analys/jobs.html" id="card2link">Find.</a>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card2">
+      <img src="resources/images/full-stack.png">
+      <h4>Full-Stack Developer </h4>
+      <a href="jobs/jobs_full-stack-Developer/jobs.html" id="card2link">Find.</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card2">
+      <img src="resources/images/ui-ux.png">
+      <h4>UI/UX Designer</h4>
+      <a href="jobs/ui_ux/uiux.html" id="card2link">Find.</a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card2">
+      <img src="resources/images/software_engineering.png">
+      <h4>Software Engineering</h4>
+      <a href="jobs/software_engineering/jobs.html" id="card2link">Find.</a>
+    </div>
+  </div>
+</div>
+
+<!-- ------------------------------------------------------- -->
+<div class="contenar3">
+
+  <div class="c3-row">
+  
+    <dvi class="card3" style="background-image: url(resources/images/members.png);">
+      <h3>Jobs</h3>
+      <h2>15522</h2>
+    </dvi>
+
+    <dvi class="card3" style="background-image: url(resources/images/jobs.png);">
+      <h3>Members</h3>
+      <h2>4354466</h2>
+    </dvi>
+
+    <dvi class="card3" style="background-image: url(resources/images/companies.png);">
+      <h3>Companies</h3>
+      <h2>3345</h2>
+    </dvi>
+
+  </div>
+
+
+
+</div>
+
+<!-- ------------------------------------------------------- -->
+
+<div class="contenar4">
+<div class="jj">
+  
+  <div class="c3-c1">
+    <a href="#"><img src="resources/images/logo-footer.png" width="50%"></a> 
+    <p>CareerFinder.com is a job search website that helps job seekers find job openings across a variety of industries. The website allows job seekers to search for jobs by keyword, industry, location, and job type.</p>
+  </div>
+
+  <div class="c3-c2">
+    <h3>QUICK LINKS</h3>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="companies.html">Companies</a></li>
+      <li><a href="">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </div>
+
+  <div class="c3-c3">
+    <h3>JOBS ALERT</h3>
+    <input type="text" id="alert-box" placeholder="Enter Yore E-mail Address..">
+    <input type="submit" value="Get Alert" id="alert-btn">
+  </div>
+
+  <div class="c3-c4">
+    <h3>SOCIAL MEDIA</h3>
+    <img src="resources/images/linkedin.png">
+    <img src="resources/images/facebook.png">
+    <img src="resources/images/instagram.png">
+    <img src="resources/images/twitter.png">
+  </div>
+</div>
+<footer>
+  <hr>
+  <p>Copyright © 2023 Caree Finder All Rights Reserved.</p>
+</footer>
+
+
+</body>
+</html>

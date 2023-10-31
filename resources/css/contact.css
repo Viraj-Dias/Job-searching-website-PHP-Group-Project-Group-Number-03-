@@ -1,0 +1,97 @@
+/* Apply a clean and professional style with suitable colors */
+.type-col:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  
+  .type-col {
+    flex-basis: 31%;
+    background: #f7f7f7;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+    margin: auto;
+  }
+  
+  .write1 {
+    width: 20%;
+    height: 100px;
+  }
+  
+  .type-write {
+    flex-basis: 31%;
+    background: #1f3a52;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+  }
+  
+  .type-write input {
+    height: 35px;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+  }
+  
+  .type-write button {
+    padding: 12px;
+    width: 100px;
+    background-color: #2bcbef;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .type-write button:hover {
+    transform: scale(1.1);
+  }
+  
+  td {
+    font-size: 15px;
+    color: aliceblue;
+    padding: 30px;
+  }
+  
+  caption {
+    font-size: 20px;
+    color: aliceblue;
+  }
+  
+  .contenar {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .row {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    flex-basis: 31%;
+    background: #1f3a52;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 10px;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+  }
+  

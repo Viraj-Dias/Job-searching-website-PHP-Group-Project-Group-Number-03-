@@ -1,0 +1,67 @@
+/* Apply a clean and professional style with suitable colors */
+.con1 {
+  margin-top: 20px; /* Adjust the margin for better spacing */
+}
+
+.con2 {
+  margin-top: 20px;
+}
+
+.card2 {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Ensure responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* Add styles for the search bar and buttons as needed for responsiveness */
+  #search-bar, .dropdown, #search-button {
+    display: block;
+    width: 100%;
+    font-size: 100%;
+  }
+}
+
+/* Grid layout styles */
+.col {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+.row {
+  margin: 0 auto; /* Center the content */
+  margin-bottom: 20px; /* Adjust the margin for better spacing */
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Apply your custom colors and styles for buttons, links, and other elements as needed */
